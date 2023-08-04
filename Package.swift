@@ -7,7 +7,7 @@ import PackageDescription
 let package = Package(
     name: "VirtualStadiumUISDK",
     platforms: [
-        .iOS(.v13)
+        .iOS(.v14)
     ],
     products: [
         .library(
@@ -21,8 +21,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "VirtualStadiumUISDK",
-            url: "https://vs-artifacts.mapinonprod.sportradar.com/apple/virtual-stadium-ios-ui-sdk/5812b606/release/VirtualStadiumUISDK.xcframework.zip",
-            checksum: "e95b62d2494a28f4ca0196267c2bbdaf5c34977c6901f17d64fd456bbe10245e"
+            url: "https://vs-artifacts.mapinonprod.sportradar.com/apple/virtual-stadium-ios-ui-sdk/805e070f/release/VirtualStadiumUISDK.xcframework.zip",
+            checksum: "4840b16aaa7894812240d5f1334a2d1d86d5dbea596231d71654aa8f45811bfe"
         ),
         .target(
             name: "VirtualStadiumUISDKTarget",
