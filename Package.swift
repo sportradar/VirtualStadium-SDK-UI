@@ -10,25 +10,25 @@ let package = Package(
     products: [
         .library(
             name: "VirtualStadiumUISDK",
-            targets: [VirtualStadiumUISDKTarget]
+            targets: ["VirtualStadiumUISDKTarget"]
         ),
     ],
     dependencies: [
-        .package(url: git@gitlab.sportradar.ag:mdp-next/virtual-stadium-ios-spm.git, exact: ),
+        .package(url: "git@gitlab.sportradar.ag:mdp-next/virtual-stadium-ios-spm.git", exact: ""),
     ],
     targets: [
         .binaryTarget(
             name: "VirtualStadiumUISDK",
-            url: "https://vs-artifacts.mapinonprod.sportradar.com/apple/virtual-stadium-ios-ui-sdk/5a5305d6/release/VirtualStadiumUISDK.xcframework.zip",
-            checksum: "87e1b36652b9d4140d23655959af354ff3aad02638a6c64037bf3f7e94c66180"
+            url: "https://vs-artifacts.mapinonprod.sportradar.com/apple/virtual-stadium-ios-ui-sdk/293deb81/release/VirtualStadiumUISDK.xcframework.zip",
+            checksum: "d390872362f1336cca283fce835a4b24cee78f277348feb97c8e171bfa20ac76"
         ),
         .target(
-            name: VirtualStadiumUISDKTarget,
+            name: "VirtualStadiumUISDKTarget",
             dependencies: [
                 .target(name: "VirtualStadiumUISDK"),
-                .product(name: VirtualStadiumDataSDK, package: virtual-stadium-ios-spm),
+                .product(name: "VirtualStadiumDataSDK", package: "virtual-stadium-ios-spm"),
             ],
-            path: VirtualStadiumUISDKTarget)
+            path: "VirtualStadiumUISDKTarget")
     ]
 )
 
