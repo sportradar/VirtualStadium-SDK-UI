@@ -3,7 +3,7 @@
 // The swift-tools-version declares the minimum version of Swift required to build this package.
 
 let package = Package(
-    name:  "VirtualStadiumUISDK",
+    name: "VirtualStadiumUISDK",
     platforms: [
         .iOS(.v13)
     ],
@@ -19,8 +19,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "VirtualStadiumUISDK",
-            url: "https://vs-artifacts.mapinonprod.sportradar.com/apple/virtual-stadium-ios-ui-sdk/293deb81/release/VirtualStadiumUISDK.xcframework.zip",
-            checksum: "d390872362f1336cca283fce835a4b24cee78f277348feb97c8e171bfa20ac76"
+            url: "https://vs-artifacts.mapinonprod.sportradar.com/apple/virtual-stadium-ios-ui-sdk/c15e4f76/release/VirtualStadiumUISDK.xcframework.zip",
+            checksum: "d6fe235f29c882fa18ec188fe91a6acd44035ede32aed26db3ff700836972c47"
         ),
         .target(
             name: "VirtualStadiumUISDKTarget",
