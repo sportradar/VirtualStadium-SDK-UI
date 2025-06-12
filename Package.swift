@@ -16,13 +16,13 @@ let package = Package(
         ),
     ],
     dependencies: [
-        .package(url: "https://github.com/sportradar/VirtualStadium-SDK-Core", .exact("1.2.2911")),
+        .package(url: "https://github.com/sportradar/VirtualStadium-SDK-Core", .exact("1.2.3024")),
     ],
     targets: [
         .binaryTarget(
             name: "VirtualStadiumUISDK",
-            url: "https://artifacts.vs.sportradar.com/virtualstadium/uisdk/iOS/frameworks-prod/VirtualStadiumUISDK_1.2.1727.xcframework.zip",
-            checksum: "43533af9f6890da20d48e9eda32ad466860c0a412cfaeed28f084a7bde38672e"
+            url: "https://artifacts.vs.sportradar.com/virtualstadium/uisdk/iOS/frameworks-prod/VirtualStadiumUISDK_1.2.1786.xcframework.zip",
+            checksum: "63a0581b9943dcda34599e403f276a835c9ee2c360462518c969b76226ea3ba7"
         ),
         .target(
             name: "VirtualStadiumUISDKTarget",
