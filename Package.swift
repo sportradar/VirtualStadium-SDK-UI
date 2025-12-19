@@ -21,8 +21,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "VirtualStadiumUISDK",
-            url: "https://artifacts.vs.sportradar.com/virtualstadium/uisdk/iOS/frameworks-prod/VirtualStadiumUISDK_1.2.2011.xcframework.zip",
-            checksum: "b08b68d405f2c2faa3984c437118ced79bf7524ed7142ee31ed897b0e27a96e4"
+            url: "https://artifacts.vs.sportradar.com/virtualstadium/uisdk/iOS/frameworks-prod/VirtualStadiumUISDK_1.2.2015.xcframework.zip",
+            checksum: "da1e6ba25754b5252298fecf7491437c86f6df5d7340511f4a5e2cb73338ff49"
         ),
         .target(
             name: "VirtualStadiumUISDKTarget",
